@@ -29,53 +29,53 @@
 
     <!-- CHANNELS -->
     <ul>
-        <!-- #6 #channels #click calls our switchChannel with the corresponding name as an argument -->
+      
         <li onclick="switchChannel('#Yummy')">
             #Yummy
-            <!-- #5 #channels #icons now grouped in .channel-meta span -->
+    
             <span class="channel-meta">
                 <img src="img/star-o.png" alt="not starred">
-                <!-- #5 #channels #icons now with chevron -->
+      
                 <img src="img/chevron-right.png" alt="select">
             </span>
         </li>
-        <!-- #6 #channels #click calls our switchChannel with the corresponding name as an argument -->
+
         <li class="selected" onclick="switchChannel('#SevenContinents')">
             #SevenContinents
-            <!-- #5 #channels #icons now grouped in .channel-meta span -->
+       
             <span class="channel-meta">
                 <img src="img/star.png" alt="starred">
-                <!-- #5 #channels #icons now with chevron -->
+        
                 <img src="img/chevron-right.png" alt="select">
             </span>
         </li>
-        <!-- #6 #channels #click calls our switchChannel with the corresponding name as an argument -->
+
         <li onclick="switchChannel('#KillerApp')">
             #KillerApp
-            <!-- #5 #channels #icons now grouped in .channel-meta span -->
+     
             <span class="channel-meta">
                 <img src="img/star-o.png" alt="not starred">
-                <!-- #5 #channels #icons now with chevron -->
+              
                 <img src="img/chevron-right.png" alt="select">
             </span>
         </li>
-        <!-- #6 #channels #click calls our switchChannel with the corresponding name as an argument -->
+
         <li onclick="switchChannel('#FirstPersonOnMars')">
             #FirstPersonOnMars
-            <!-- #5 #channels #icons now grouped in .channel-meta span -->
+       
             <span class="channel-meta">
                 <img src="img/star.png" alt="starred">
-                <!-- #5 #channels #icons now with chevron -->
+       
                 <img src="img/chevron-right.png" alt="select">
             </span>
         </li>
-        <!-- #6 #channels #click calls our switchChannel with the corresponding name as an argument -->
+
         <li onclick="switchChannel('#Octoberfest')">
             #Octoberfest
-            <!-- #5 #channels #icons now grouped in .channel-meta span -->
+
             <span class="channel-meta">
                 <img src="img/star-o.png" alt="not starred">
-                <!-- #5 #channels #icons now with chevron -->
+
                 <img src="img/chevron-right.png" alt="select">
             </span>
         </li>
@@ -102,15 +102,12 @@
 
     <!-- APP BAR for CHANNEL TITLE -->
     <h1>
-        <!-- #6 #channels #switcher needs to identify the channel name, so let's give it an ID -->
         <span id="channel-name">#SevenContinents</span>
-        <!-- #6 #channels #location also needs an id -->
         <small id="channel-location">by <strong>cheeses.yard.applies</strong></small>
-        <!-- #6 #liking channels requires a #filled star / with its #click listener -->
         <img id="channel-star" src="img/star.png" alt="Favourite" onclick="star()">
     </h1>
 
-    <!-- #5 #messages are now wrapped in a div to #scroll properly */ -->
+
     <div id="messages">
 
         <div class="message own">
@@ -160,8 +157,7 @@
 
     </div>
 
-    <!-- #5 #smileys #insert the chat-bar -->
-    <div id="chat-bar"> <!-- #6 #smile #show the menu on click -->
+    <div id="chat-bar">
         <button id="emojis-button" onclick="toggleEmojis()"><img src="img/smile-o.png" alt="Smiley"></button>
         <div id="emojis">&#x1F601; &#x1F602; &#x1F603; &#x1F604; &#x1F605; &#x1F606; &#x1F607;</div>
     </div>
